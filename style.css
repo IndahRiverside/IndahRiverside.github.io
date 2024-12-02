@@ -1,0 +1,226 @@
+body {
+  background-color: black;
+}
+
+*, html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Georgia", serif; 
+}
+
+.NAVBAR {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.NAVBAR-ISI {
+  background-color: rgba(75, 46, 36, 0.8); 
+  width: 100%;
+  height: 60px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 5px 2%; 
+}
+
+.nama {
+  display: flex;
+  flex-direction: row;
+  font-size: 2em; 
+  padding: 15px;
+  text-transform: capitalize;
+}
+
+.first {
+  color: white;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+}
+
+.second {
+  color: #2a9d8f;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  margin: 15px;
+}
+
+.navigation ul {
+  display: flex; 
+  padding: 0; 
+}
+
+.navigation ul li {
+  list-style-type: none;
+  padding: 0 15px 5%; 
+}
+
+.navigation ul li a {
+  color: #fffcf9; 
+  text-decoration: none; 
+}
+
+.navigation li a:hover {
+  color: #f0a500; 
+  transition: all 0.3s ease-in-out;
+}
+.opening {
+  display: flex;
+  border-radius: 60px;
+  padding: 12 px;
+  margin: 12px;
+}
+.desc {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.desk {
+  padding: 60px;
+}
+.openpic {
+  height: 480px;
+  width: 720px;
+  padding: 7px;
+  border-radius: 60px;
+}
+.main-bedroom {
+  display: flex;
+}
+.ajakan {
+  background-color: rgba(75, 46, 36, 0.8);
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  color: white;
+}
+.image-ajakan {
+  height: 450;
+  width: 480;
+  border-radius: 60px;
+}
+.river {
+  color: #2a9d8f;
+}
+.white {
+  color: white;
+}
+.kalimat p {
+  font-size: 15px;
+}
+.tentang-kami {
+  color: white;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  font-size: 15px;
+  justify-content: space-evenly;
+  padding: 15px;
+  margin: 15px;
+}
+.tentang-kami span {
+  color: #2a9d8f;
+}
+.tentang-kami h3 {
+  padding: 30px;
+}
+.tentang-kami img {
+  border-radius: 60px;
+}
+.tentang-kami p {
+  margin: 5px;
+  padding: 15px;
+}
+button {
+ margin-top: 1rem;
+ display: inline-block;
+ padding: 1rem 1rem;
+ font-size: 0,8rem;
+ background-color: #2a9d8f;
+ color: #fff;
+ text-decoration: none;
+}
+.room-facility {
+  color: white;
+  padding: 7px;
+  margin: 25px;
+}
+.map {
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+footer {
+  background-color: rgba(75,36,46, 0.8);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+footer button {
+  margin: 15px;
+}
+/* Tablet HP */
+@media (max-width: 1200px) {
+  .NAVBAR p, a {
+    font-size: 75%;
+    }
+    .image-ajakan {
+      width: 250;
+      height: 240;
+    }
+    .ajakan h2, span {
+      font-size: 110%;
+    }
+}
+/* Laotop */
+@media (min-width: 2000px) {
+  html, h1, h2, h3, h4, a, p {
+    font-size: 150%;
+    }
+.NAVBAR {
+  height: 210px;
+}
+.NAVBAR-ISI {
+  height: 200px;
+}
+.ajakan {
+  width: 100%;
+  height: 800px;
+  font-size: 220%;
+}
+button {
+  font-size: 2rem;
+}
+.image-ajakan {
+  width: 900px;
+  height: 750px;
+}
+footer {
+  height: 200px;
+}
+.map {
+  height: 700px;
+}
+.room-facility {
+  margin: 10px;
+  padding: 15px;
+}
+}
+
